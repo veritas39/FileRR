@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginBottom="20dp"
+    android:id="@+id/listFile"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/inputbox"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="File Name"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtFileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="XXXXXXX"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Modified"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtLastModified"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:text="XXXXXXX"
+            />
+
+    </LinearLayout>
+</LinearLayout>
